@@ -1,0 +1,48 @@
+@import './_sprites/icons.scss';
+body{
+    background-color: #eee;
+}
+
+.order{
+    margin-right: 20px;
+    @include sprite($s-order);
+}
+
+.date{
+    margin-right: 20px;
+    @include sprite($s-date);
+}
+
+.card{
+    color: orange;
+}
+
+p{
+    margin: 20px 0;
+    font-size: 40px;
+    line-height: 60px;
+    height: 60px;
+}
+
+ul{
+    overflow: hidden;
+    .flex{
+        line-height: 50px;
+        height: 50px;
+        font-size: 50px;
+    }
+}
+
+li{
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    &:first-child{
+        margin-top: 0;
+    }
+}
+
+img{
+    vertical-align: top;
+}

@@ -1,0 +1,36 @@
+﻿extends _share/container.pug
+block config
+    - var title = "";
+    - var keyword = "掼娱掼蛋,掼蛋,手机掼蛋,掼蛋官网";
+    - var description = "掼娱掼蛋,给你不一样的棋牌体验!";
+block head
+    link(rel='stylesheet',href=cssUrl+'order.css')
+block html
+    #header
+        .container
+            a(href="#")
+                img(src=imgUrl+"back.png", alt="")
+            |消费订单
+    .container
+        ul
+            li
+                .flex
+                    div
+                        i.icon.order
+                        |XF0001003
+                    div
+                        |已完成 #[i.icon.next]
+                p 下单时间：   2020-05-22  09:30
+                p 数量: 2份
+                p 总价 #[span.money ￥18]
+            li
+                .flex
+                    div
+                        i.icon.order
+                        |XF0001003
+                    div
+                        |已完成 #[i.icon.next]
+                p 下单时间：   2020-05-22  09:30
+                p 数量: 2份
+                p 总价 #[span.money ￥18]
+block js

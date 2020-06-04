@@ -1,0 +1,19 @@
+@import './_sprites/icons.scss';
+
+.order{
+    margin-right: 20px;
+    @include sprite($s-menu);
+}
+
+.next{
+    margin-left: 30px;
+    @include sprite($s-next);
+}
+
+.money{
+    color: orange;
+}
+
+p{
+    margin-top: 20px;
+}

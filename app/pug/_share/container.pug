@@ -1,0 +1,26 @@
+doctype html
+html
+    block config
+    head
+        title #{title}
+        meta(charset='utf-8')
+        meta(name="robots",content="all")
+        meta(name='renderer',content='webkit')
+        meta(name="description",content=description)
+        meta(name="keywords",content=keywords)
+        meta(http-equiv='X-UA-Compatible',content='IE=edge')
+        //- 关闭iphone给数字添加链接的功能
+        meta(name='format-detection' content='telephone=no,email=no')
+        //- 全屏显示
+        meta(name='apple-mobile-web-app-capable' content='yes')
+        //- 隐藏状态栏
+        meta(name='apple-mobile-web-app-status-bar-style' content='blank')
+        meta(name='viewport',content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no')
+        link(rel='shortcut icon' href='/favicon.ico')
+        script(src=jsUrl+'flexible.js')
+        link(rel='stylesheet',href=cssUrl+'base.css')
+        block head
+    body
+        block html
+        script(src=jsUrl+'zepto.js')
+        block js

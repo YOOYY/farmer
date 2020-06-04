@@ -1,0 +1,46 @@
+.mybox>div{
+    float: left;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.nickname{
+    font-size: 30px;
+}
+.tel{
+    font-size: 30px;
+    color: #eee;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    margin-top: 50px;
+    li{
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        line-height: 40px;
+        img{
+            width: 10px;
+        }
+        i{
+            display: block;
+            width: 30px;
+            height: 30px;
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+        }
+    }
+}
+.balance{
+    background-image: url($imgUrl+'icon1.png');
+}
+
+.money{
+    color: orange;
+}

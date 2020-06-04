@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="robots" content="all">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="掼娱掼蛋,给你不一样的棋牌体验!">
+    <meta name="keywords">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="./js/flexible.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/menu.css">
+  </head>
+  <body>
+    <div class="container" id="header"><a href="#"><img src="./imgs/back.png" alt=""></a>我的菜单</div>
+    <div class="container">
+      <div class="shop">
+        <h1>川菜馆</h1>
+        <div class="brand flex"><span>今日本店预售</span><img src="./imgs/next.png" alt=""></div>
+      </div>
+      <form>
+        <ul class="foods">
+          <li>
+            <div class="img"><img src="./imgs/food1.jpg" alt=""></div>
+            <div class="text">
+              <div class="flex">
+                <div class="name">红烧肉</div>
+                <div class="num">x1</div>
+              </div>
+              <p class="des">酱香味，微甜</p>
+              <p class="money">￥13</p>
+              <del>￥20</del>
+            </div>
+            <button>已取菜</button>
+          </li>
+        </ul>
+        <div class="paytype">
+          <label class="wechat active" for="wechat">微信支付
+            <input id="wechat" type="radio" value="wechat" checked>
+          </label>
+          <label class="wechat" for="wechat">微信支付
+            <input id="wechat" type="radio" value="wechat">
+          </label>
+        </div>
+        <div class="moneybox">
+          <div class="text">
+            <div>￥<em>13</em></div>
+            <div class="des">消费结束后会根据取菜信息自动扣款</div>
+          </div>
+          <input class="money" type="submit" value="结算">
+        </div>
+      </form>
+    </div>
+    <script src="./js/zepto.js"></script>
+  </body>
+</html>

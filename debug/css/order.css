@@ -1,0 +1,21 @@
+.next,
+.order {
+  background-image: url(../imgs/icons.png);
+  background-size: 2.15rem 2.15rem;
+  width: .5rem;
+  height: .5rem
+}
+.order {
+  margin-right: .2rem;
+  background-position: 0 0
+}
+.next {
+  margin-left: .3rem;
+  background-position: -1.65rem 0
+}
+.money {
+  color: orange
+}
+p {
+  margin-top: .2rem
+}

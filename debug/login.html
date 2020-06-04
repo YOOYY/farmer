@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="robots" content="all">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="掼娱掼蛋,给你不一样的棋牌体验!">
+    <meta name="keywords">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="./js/flexible.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+  </head>
+  <body>
+    <div class="container"><img class="logo" src="./imgs/logo.png" alt="">
+      <ul class="nav">
+        <li class="active">短信验证码登录</li>
+      </ul>
+      <form>
+        <div class="input">
+          <label for="phone">手机号</label>
+          <input id="phone" type="text" placeholder="请输入手机号">
+        </div>
+        <div class="input">
+          <label for="code">验证码</label>
+          <input id="code" type="text" placeholder="请输入验证码">
+          <button id="verify">发送验证码</button>
+        </div>
+        <div class="input">
+          <input id="submit" type="submit" value="提交">
+        </div>
+      </form>
+    </div>
+    <div class="mask">
+      <div class="content">
+        <h3>本店需要先充值再消费</h3><a href="#">充值</a><a class="close">取消</a>
+      </div>
+    </div>
+    <script src="./js/zepto.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

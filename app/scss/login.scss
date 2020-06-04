@@ -1,0 +1,70 @@
+.logo{
+    display: block;
+    margin: 200px auto 100px auto;
+    width: 400px;
+}
+
+.nav{
+    font-size: 30px;
+    li{
+        width: 220px;
+        text-align: center;
+        margin: 0 auto;
+        &.active{
+            border-bottom:1px solid orange;
+        }
+    }
+}
+
+.input{
+    width: 70%;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 16px;
+    display: block;
+}
+
+input{
+    border-radius: 10px;
+    background-color: #ddd;
+    color: #000;
+    padding-left: 20px;
+    border: none;
+    height: 50px;
+    &:focus{
+        border:1px solid orangered;
+    }
+}
+
+#code{
+    width: 50%;
+}
+
+#verify{
+    width: 40%;
+    color: orangered;
+    text-align: right;
+}
+
+#submit{
+    width: 100%;
+    background-color: orange;
+}
+
+.mask{
+    font-size: 30px;
+    text-align: center;
+    a{
+        display: block;
+        background-color: orange;
+        border-radius: 40px;
+        text-align: center;
+        line-height: 70px;
+        height: 70px;
+        margin-top: 30px;
+    }
+}

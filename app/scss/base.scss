@@ -1,0 +1,111 @@
+body{
+    margin: 0;padding: 0;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+input{
+    border: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    -webkit-touch-callout: none;
+}
+
+button{
+    border:none;
+    background: none;
+    padding: 0;
+}
+
+input[type=radio]{
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration:none;
+    color: #000;
+}
+
+p{
+    margin: 0;
+}
+
+ul,ol {
+    margin:0;padding-left: 0;
+    list-style: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.clearfix{
+    clear: both;
+    width:0;
+    height: 0;
+    overflow:hidden;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.icon{
+    display: inline-block;
+}
+
+#header {
+    height: 90px;
+    line-height: 90px;
+    font-size: 40px;
+    background-color: #fff;
+    a {
+        position: absolute;
+        width: 19px;
+        left: 35px;
+        top: 35px;
+        margin-right: 20px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.mask{
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    .content{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        position: absolute;
+        width: 500px;height: 400px;
+        top: calc(50% - 200px);
+        left: calc(50% - 250px);
+    }
+}

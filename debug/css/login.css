@@ -1,0 +1,68 @@
+.logo,
+.mask a,
+label {
+  display: block
+}
+#submit,
+.mask a {
+  background-color: orange
+}
+.mask,
+.mask a,
+.nav li {
+  text-align: center
+}
+.logo {
+  margin: 2rem auto 1rem;
+  width: 4rem
+}
+.nav {
+  font-size: .3rem
+}
+.nav li {
+  width: 2.2rem;
+  margin: 0 auto
+}
+.nav li.active {
+  border-bottom: solid orange
+}
+.input {
+  width: 70%;
+  font-size: .24rem;
+  margin: 0 auto;
+  margin-bottom: .2rem
+}
+label {
+  font-size: .16rem
+}
+input {
+  border-radius: .1rem;
+  background-color: #ddd;
+  color: #000;
+  padding-left: .2rem;
+  border: none;
+  height: .5rem
+}
+input:focus {
+  border: solid #ff4500
+}
+#code {
+  width: 50%
+}
+#verify {
+  width: 40%;
+  color: #ff4500;
+  text-align: right
+}
+#submit {
+  width: 100%
+}
+.mask {
+  font-size: .3rem
+}
+.mask a {
+  border-radius: .4rem;
+  line-height: .7rem;
+  height: .7rem;
+  margin-top: .3rem
+}

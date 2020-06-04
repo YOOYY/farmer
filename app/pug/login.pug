@@ -1,0 +1,29 @@
+﻿extends _share/container.pug
+block config
+    - var title = "";
+    - var keyword = "掼娱掼蛋,掼蛋,手机掼蛋,掼蛋官网";
+    - var description = "掼娱掼蛋,给你不一样的棋牌体验!";
+block head
+    link(rel='stylesheet',href=cssUrl+'login.css')
+block html
+    .container
+        img.logo(src=imgUrl+"logo.png", alt="")
+        ul.nav
+            li.active 短信验证码登录
+        form
+            .input
+                label(for="phone") 手机号
+                input#phone(type="text" placeholder="请输入手机号")
+            .input
+                label(for="code") 验证码
+                input#code(type="text" placeholder="请输入验证码")
+                button#verify 发送验证码
+            .input
+                input#submit(type="submit", value="提交")
+    .mask
+        .content
+            h3 本店需要先充值再消费
+            a(href="#") 充值
+            a.close 取消
+block js
+    script(src=jsUrl+"login.js")

@@ -1,0 +1,106 @@
+.container{
+    background-color: #eee;
+}
+
+.shop{
+    overflow: hidden;
+    h1{
+        font-weight: normal;
+        font-size: 20px;
+        float: left;
+    }
+    .flex{
+        float: left;
+        span{
+            border:1px solid orange;
+            color: orange;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    }
+}
+
+.foods{
+    li{
+        display: flex;
+        justify-content: space-between;
+        .name{
+            font-size: 20px;
+        }
+        .des{
+            color:orangered;
+        }
+        del{
+            color: #eee;
+        }
+        del,.des,.num{
+            font-size: 16px;
+        }
+        .img,button{
+            width: 20%;
+        }
+        .text{
+            width: 55%;
+        }
+        img{
+            width: 100%;
+        }
+        button{
+            border-radius: 10px;
+            text-align: center;
+            background-color: orange;
+        }
+    }
+}
+
+.paytype{
+    label{
+        display: block;
+        text-align: center;
+        width: 100%;
+        &:before{
+            content: '';
+            width: 30px;
+            height: 30px;
+            background:url($imgUrl+'wechat.png') no-repeat;
+            background-size: 30px 30px;
+            display: inline-block;
+            margin-right: 40px;
+        }
+    
+        &:after{
+            content:'';
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border-radius: 50%;
+            border:1px solid orange;
+            margin-left: 40px;
+        }
+        &.active:after{
+            background:url($imgUrl+'success.png') no-repeat;
+            background-size: 30px 30px;
+        }
+    }
+}
+
+.moneybox{
+    height: 90px;
+    em{
+        font-size: 30px;
+    }
+    .des{
+        color: #666;
+        font-size: 16px;
+    }
+    .text{
+        width: 70%;
+        display: inline-block;
+    }
+    .money{
+        width: 29%;
+        background-color: orange;
+        text-align: center;
+        display: inline-block;
+    }
+}

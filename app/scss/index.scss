@@ -1,0 +1,33 @@
+@import './_sprites/icons.scss';
+
+.logo{
+    display: block;
+    margin: 200px auto;
+    width: 400px;
+}
+
+.nav{
+    a{
+        width: 250px;
+        height: 100px;
+        background-color: orange;
+        border-radius: 30px;
+        font-size: 30px;
+        line-height: 100px;
+    }
+}
+
+.menu{
+    @include sprite($s-menu);
+}
+
+.leave{
+    @include sprite($s-leave);
+}
+
+.banner{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}

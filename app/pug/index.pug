@@ -1,0 +1,18 @@
+﻿extends _share/container.pug
+block config
+    - var title = "";
+    - var keyword = "掼娱掼蛋,掼蛋,手机掼蛋,掼蛋官网";
+    - var description = "掼娱掼蛋,给你不一样的棋牌体验!";
+block head
+    link(rel='stylesheet',href=cssUrl+'index.css')
+block html
+    .container
+        img.logo(src=imgUrl+"logo.png", alt="")
+        .nav.flex
+            a(href="#")
+                |#[i.icon.menu]我的菜单
+            a(href="#")
+                |#[i.icon.leave]暂时离开
+        img.banner(src=imgUrl+"banner1.png", alt="")
+        img.banner(src=imgUrl+"banner2.png", alt="")
+block js

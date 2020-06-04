@@ -1,0 +1,74 @@
+.container{
+    background-color: #eee;
+    padding-bottom: 30px;
+}
+
+.foods,.orderinfo{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.foods{
+    li{
+        display: flex;
+        justify-content: space-between;
+        .name{
+            font-size: 20px;
+        }
+        .des{
+            color:orangered;
+        }
+        del{
+            color: #666;
+        }
+        del,.des,.num{
+            font-size: 16px;
+        }
+        .img{
+            width: 20%;
+        }
+        .text{
+            width: 75%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.orderinfo{
+    h3{
+        font-size: 20px;
+    }
+    .content li{
+        display: flex;
+        justify-content: space-between;
+        line-height: 30px;
+        height: 30px;
+    }
+}
+
+.moneybox{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 90%;
+    margin: 30px auto 0 auto;
+    background-color: #fff;
+    &>div{
+        display: inline-block;
+    }
+    .text{
+        width: 70%;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    .money{
+        width: 29%;
+        background-color: orange;
+        text-align: center;
+    }
+}

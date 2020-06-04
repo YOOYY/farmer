@@ -1,0 +1,43 @@
+﻿extends _share/container.pug
+block config
+    - var title = "";
+    - var keyword = "掼娱掼蛋,掼蛋,手机掼蛋,掼蛋官网";
+    - var description = "掼娱掼蛋,给你不一样的棋牌体验!";
+block head
+    link(rel='stylesheet',href=cssUrl+'detail.css')
+block html
+    #header.container
+        a(href="#")
+            img(src=imgUrl+"back.png", alt="")
+        |菜单详情
+    .container
+        ul.foods
+            li
+                .img
+                    img(src=imgUrl+"food1.jpg", alt="")
+                .text
+                    .flex
+                        .name 红烧肉
+                        .num x1
+                    p.des 酱香味，微甜
+                    p.money ￥13
+                    del ￥20
+        .orderinfo
+            h3 订单信息
+            ul.content
+                li
+                    span 下单信息
+                    span 2020-05-22 09:30
+                li
+                    span 订单编号
+                    span XF0001003
+                li
+                    span 门店信息
+                    span 川菜馆
+                li
+                    span 支付方式
+                    span 余额支付
+        .moneybox
+            .text 合计金额
+            .money ￥13
+block js

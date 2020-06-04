@@ -1,0 +1,34 @@
+﻿extends _share/container.pug
+block config
+    - var title = "";
+    - var keyword = "掼娱掼蛋,掼蛋,手机掼蛋,掼蛋官网";
+    - var description = "掼娱掼蛋,给你不一样的棋牌体验!";
+block head
+    link(rel='stylesheet',href=cssUrl+'payment.css')
+block html
+    #header.container
+        a(href="#")
+            img(src=imgUrl+"back.png", alt="")
+        |充值
+    .container
+        h3 充值档位
+        ul
+            li.flex
+                div
+                    img(src=imgUrl+"vip1.png", alt="")
+                div
+                    p.title 小试牛刀卡
+                    p.des 充值后长期有效
+                    p ￥#[em 20] #[del ￥#[em 30]]
+    .mask
+        .content
+            img.close(src=imgUrl+"close.png")
+            h3 付款详情
+            p ￥#[em 20]
+            p 订单信息 小试牛刀卡 20元
+            .typelist
+                label.wechat.active(for="wechat") 微信支付
+                    input#wechat(type="radio" value="wechat" checked)
+            input#submit(type="submit" value="确认支付")
+block js
+    script(src=jsUrl+"payment.js")

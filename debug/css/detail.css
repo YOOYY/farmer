@@ -1,0 +1,82 @@
+.foods li,
+.orderinfo .content li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox
+}
+.container {
+  background-color: #eee;
+  padding-bottom: .3rem
+}
+.foods,
+.moneybox,
+.orderinfo {
+  width: 90%;
+  background-color: #fff
+}
+.foods,
+.orderinfo {
+  border-radius: .1rem;
+  padding: .2rem .1rem;
+  margin: 0 auto;
+  margin-top: .2rem
+}
+.foods li {
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.foods li .name,
+.orderinfo h3 {
+  font-size: .2rem
+}
+.foods li .des {
+  color: #ff4500
+}
+.foods li del {
+  color: #666
+}
+.foods li .des,
+.foods li .num,
+.foods li del {
+  font-size: .16rem
+}
+.foods li .img {
+  width: 20%
+}
+.foods li .text {
+  width: 75%
+}
+.foods li img {
+  width: 100%
+}
+.orderinfo .content li {
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  line-height: .3rem;
+  height: .3rem
+}
+.moneybox {
+  border-radius: .2rem;
+  overflow: hidden;
+  margin: .3rem auto 0
+}
+.moneybox > div {
+  display: inline-block
+}
+.moneybox .text {
+  width: 70%;
+  padding-left: .2rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+.moneybox .money {
+  width: 29%;
+  background-color: orange;
+  text-align: center
+}
