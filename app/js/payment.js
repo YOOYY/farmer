@@ -1,4 +1,6 @@
 $("ul li").click(function(){
+    $('.mask .content .money em').text($(this).data('money'));
+    $('.mask .content .msg').text($(this).data('text')+' '+$(this).data('money')+'元');
     $('.mask').show();
 })
 

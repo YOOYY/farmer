@@ -12,15 +12,15 @@ body {
 .order {
   margin-right: .24rem;
   background-image: url(../imgs/icons.png);
-  background-size: 2.15rem 2.15rem;
+  background-size: 2.7rem 2.18rem;
   width: .5rem;
   height: .5rem
 }
 .order {
-  background-position: -1.65rem -.55rem
+  background-position: -1.1rem -1.13rem
 }
 .date {
-  background-position: 0 -.55rem
+  background-position: -1.1rem 0
 }
 .card {
   color: orange;

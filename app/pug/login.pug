@@ -10,20 +10,20 @@ block html
         img.logo(src=imgUrl+"logo.png", alt="")
         ul.nav
             li.active 短信验证码登录
-        form
+        form(action='index.html' method="get")
             .input
                 label(for="phone") 手机号
                 input#phone(type="text" placeholder="请输入手机号")
             .input
                 label(for="code") 验证码
-                input#code(type="text" placeholder="请输入验证码")
+                input#code(type="text" placeholder="请输入验证码" autocomplete="off")
                 button#verify 发送验证码
             .input
                 input#submit(type="submit", value="提交")
     .mask
         .content
             h3 本店需要先充值,后消费
-            a(href="#") 充值
+            a(href="./payment.html") 充值
             a.close 取消
 block js
     script(src=jsUrl+"login.js")

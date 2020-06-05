@@ -7,9 +7,11 @@ block head
     link(rel='stylesheet',href=cssUrl+'index.css')
 block html
     .container
+        a.admin(href="./login.html")
+            img(src=imgUrl+"icon-admin.png")
         img.logo(src=imgUrl+"logo.png", alt="")
         .nav.flex
-            a(href="#")
+            a(href="./menu.html")
                 |#[i.icon.menu]我的菜单
             a(href="#")
                 |#[i.icon.leave]暂时离开

@@ -22,14 +22,14 @@
       <ul class="nav">
         <li class="active">短信验证码登录</li>
       </ul>
-      <form>
+      <form action="index.html" method="get">
         <div class="input">
           <label for="phone">手机号</label>
           <input id="phone" type="text" placeholder="请输入手机号">
         </div>
         <div class="input">
           <label for="code">验证码</label>
-          <input id="code" type="text" placeholder="请输入验证码">
+          <input id="code" type="text" placeholder="请输入验证码" autocomplete="off">
           <button id="verify">发送验证码</button>
         </div>
         <div class="input">
@@ -39,7 +39,7 @@
     </div>
     <div class="mask">
       <div class="content">
-        <h3>本店需要先充值,后消费</h3><a href="#">充值</a><a class="close">取消</a>
+        <h3>本店需要先充值,后消费</h3><a href="./payment.html">充值</a><a class="close">取消</a>
       </div>
     </div>
     <script src="./js/zepto.js"></script>

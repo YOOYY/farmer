@@ -22,7 +22,7 @@
     <div class="container">
       <h3>充值档位</h3>
       <ul>
-        <li class="flex">
+        <li class="flex" data-money="20" data-text="小试牛刀卡">
           <div><img src="./imgs/vip1.png" alt=""></div>
           <div class="right flex">
             <div>
@@ -35,13 +35,39 @@
             <div class="img"><img src="./imgs/next.png" alt=""></div>
           </div>
         </li>
+        <li class="flex" data-money="100" data-text="深入了解卡">
+          <div><img src="./imgs/vip2.png" alt=""></div>
+          <div class="right flex">
+            <div>
+              <p class="title">深入了解卡</p>
+              <p class="des">充值后长期有效</p>
+              <p class="money">￥<em>100</em> 
+                <del>￥<em>110</em></del>
+              </p>
+            </div>
+            <div class="img"><img src="./imgs/next.png" alt=""></div>
+          </div>
+        </li>
+        <li class="flex" data-money="300" data-text="铁杆粉丝卡">
+          <div><img src="./imgs/vip3.png" alt=""></div>
+          <div class="right flex">
+            <div>
+              <p class="title">铁杆粉丝卡</p>
+              <p class="des">充值后长期有效</p>
+              <p class="money">￥<em>300</em> 
+                <del>￥<em>340</em></del>
+              </p>
+            </div>
+            <div class="img"><img src="./imgs/next.png" alt=""></div>
+          </div>
+        </li>
       </ul>
     </div>
     <div class="mask">
       <div class="content"><img class="close" src="./imgs/close.png">
         <h3>付款详情</h3>
         <p class="money">￥<em>20</em></p>
-        <p>订单信息 小试牛刀卡 20元</p>
+        <p>订单信息 <span class="msg">小试牛刀卡 20元</span></p>
         <div class="typelist">
           <label class="wechat active" for="wechat">微信支付
             <input id="wechat" type="radio" value="wechat" checked>

@@ -1,18 +1,19 @@
 .next,
 .order {
   background-image: url(../imgs/icons.png);
-  background-size: 2.15rem 2.15rem;
+  background-size: 2.7rem 2.18rem;
   width: .5rem;
-  height: .5rem;
   vertical-align: middle
 }
 .order {
   margin-right: .3rem;
-  background-position: 0 0
+  background-position: 0 0;
+  height: .53rem
 }
 .next {
   margin-left: .36rem;
-  background-position: -1.65rem 0
+  background-position: -.55rem -1.13rem;
+  height: .5rem
 }
 .money {
   color: orange
