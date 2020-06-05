@@ -3,7 +3,7 @@
 .order{
     margin-right: 30px;
     @include sprite($s-menu);
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .next{

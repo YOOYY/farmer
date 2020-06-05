@@ -1,13 +1,14 @@
-.nickname,
-ul li {
-  font-size: .28rem
+.money em,
+.nickname {
+  font-size: .36rem
 }
 .container {
   width: 6.35rem
 }
 .mybox {
   overflow: hidden;
-  margin-bottom: .6rem
+  margin-bottom: .6rem;
+  padding-top: .2rem
 }
 .mybox > div {
   float: left
@@ -17,12 +18,18 @@ ul li {
   height: .9rem;
   margin-right: .4rem
 }
+.balance,
+.icon2,
+.icon3,
+.icon4 {
+  margin-right: .1rem
+}
 .nickname {
   margin-bottom: .1rem
 }
 .tel {
   font-size: .2rem;
-  color: #eee
+  color: #b6b4b4
 }
 img {
   max-width: 100%
@@ -39,11 +46,12 @@ ul li {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  font-size: .28rem;
   line-height: .4rem;
   padding: .2rem 0
 }
 ul li img {
-  width: .1rem
+  width: .15rem
 }
 ul li i {
   display: inline-block;
@@ -57,11 +65,22 @@ ul li i {
 .balance {
   background-image: url(../imgs/icon1.png)
 }
+.icon2 {
+  background-image: url(../imgs/icon2.png)
+}
+.icon3 {
+  background-image: url(../imgs/icon3.png)
+}
+.icon4 {
+  background-image: url(../imgs/icon4.png)
+}
 .money {
-  color: orange;
+  color: #f8c723;
   font-size: .26rem
 }
-.money em,
 .phone {
   font-size: .32rem
+}
+.first {
+  margin-bottom: .2rem
 }

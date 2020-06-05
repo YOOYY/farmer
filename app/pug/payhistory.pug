@@ -7,10 +7,9 @@ block head
     link(rel='stylesheet',href=cssUrl+'payhistory.css')
 block html
     #header
-        .container
-            a(href="#")
-                img(src=imgUrl+"back.png", alt="")
-            |充值记录
+        a(href="#")
+            img(src=imgUrl+"back.png", alt="")
+        |充值记录
     .container
         ul
             li
@@ -20,6 +19,16 @@ block html
                 .flex
                     .card 小试牛刀卡
                     div ￥20
+                p
+                    i.icon.date
+                    |2020-05-22  09:30
+            li
+                p
+                    i.icon.order
+                    |XF0001003
+                .flex
+                    .card 深入了解卡
+                    div ￥100
                 p
                     i.icon.date
                     |2020-05-22  09:30

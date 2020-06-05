@@ -7,10 +7,9 @@ block head
     link(rel='stylesheet',href=cssUrl+'mine.css')
 block html
     #header
-        .container
-            a(href="#")
-                img(src=imgUrl+"back.png", alt="")
-            |我的
+        a(href="./index.html")
+            img(src=imgUrl+"back.png", alt="")
+        |我的
     .container
         .mybox
             .avatar
@@ -18,7 +17,7 @@ block html
             div
                 .nickname exexex
                 .tel 1234567890
-        img(src=imgUrl+"card1.png", alt="")
+        img.first(src=imgUrl+"card1.png", alt="")
         img(src=imgUrl+"card2.png", alt="")
         ul
             li
@@ -26,15 +25,15 @@ block html
                 .money ￥#[em 100]
             li
                 a(href="#")
-                    div #[i.icon.balance] 消费订单
+                    div #[i.icon.icon2] 消费订单
                 div
-                    img(src=imgUrl+"back.png", alt="")
+                    img(src=imgUrl+"next.png", alt="")
             li
                 a(href="./payhistory.html")
-                    div #[i.icon.balance] 充值记录
+                    div #[i.icon.icon3] 充值记录
                 div
-                    img(src=imgUrl+"back.png", alt="")
+                    img(src=imgUrl+"next.png", alt="")
             li
-                div #[i.icon.balance] 客服
+                div #[i.icon.icon4] 客服
                 .phone 40080010
 block js

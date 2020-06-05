@@ -12,6 +12,10 @@ ul {
 .clearfix {
   clear: both
 }
+.icon,
+img {
+  vertical-align: middle
+}
 #header,
 .mask .content,
 body {
@@ -23,7 +27,6 @@ body {
 }
 img {
   border: 0;
-  vertical-align: middle;
   -webkit-touch-callout: none
 }
 button {
@@ -50,7 +53,7 @@ em {
 }
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 84%;
   font-size: .18rem
 }
 .flex {

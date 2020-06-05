@@ -10,6 +10,7 @@ body{
 .order{
     margin-right: 24px;
     @include sprite($s-order);
+    vertical-align: baseline;
 }
 
 .date{
@@ -18,20 +19,19 @@ body{
 }
 
 .card{
-    color: orange;
-    font-size: 36px;
+    color: #fdc923;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .flex{
-    margin: 33px auto 40px auto;
     font-size: 32px;
 }
 
 p{
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 60px;
-    height: 60px;
 }
 
 ul{
@@ -45,15 +45,11 @@ ul{
 }
 
 li{
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 33px 55px;
     &:first-child{
         margin-top: 0;
     }
-}
-
-img{
-    vertical-align: top;
 }

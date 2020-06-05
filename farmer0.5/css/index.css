@@ -1,3 +1,8 @@
+.leave,
+.menu {
+  background-image: url(../imgs/icons.png);
+  background-size: 2.15rem 1.49rem
+}
 .banner,
 .logo {
   display: block
@@ -9,12 +14,6 @@
 .logo {
   margin: 2rem auto 1.2rem;
   width: 3.22rem
-}
-.leave,
-.menu {
-  background-image: url(../imgs/icons.png);
-  background-size: 2.7rem 2.18rem;
-  width: .5rem
 }
 .nav {
   text-align: center;
@@ -33,11 +32,13 @@
   line-height: 1rem
 }
 .menu {
-  background-position: 0 0;
-  height: .53rem
+  background-position: -.78rem -1.14rem;
+  width: .3rem;
+  height: .32rem
 }
 .leave {
-  background-position: -1.65rem -.55rem;
+  background-position: -.55rem -.59rem;
+  width: .5rem;
   height: .5rem
 }
 .admin img,

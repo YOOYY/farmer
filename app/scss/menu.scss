@@ -1,17 +1,13 @@
-body{
-    background-color: #eee;
-}
-
 .shop{
-    width: 350px;
+    width: 400px;
     align-items: center;
     h1{
         font-weight: normal;
-        font-size: 36px;
+        font-size: 40px;
     }
     span{
-        border:1px solid orange;/*no*/
-        color: orange;
+        border:1px solid #fbc825;/*no*/
+        color: #fbc825;
         border-radius: 30px;
         font-size: 16px;
         width: 150px;height: 36px;
@@ -61,7 +57,7 @@ body{
             border-radius: 10px;
             text-align: center;
             width: 160px;height: 60px;
-            background-color: orange;
+            background-color: #fbc825;
         }
     }
 }
@@ -69,16 +65,17 @@ body{
 .paytype{
     label{
         display: block;
-        width: 80%;
-        font-size: 40px;
+        width: 100%;
+        font-size: 30px;
         margin: 0 auto;
-        margin-bottom: 30px;
+        margin-bottom: 22px;
+        padding: 20px 0;
         &:before{
             content: '';
-            width: 40px;
-            height: 40px;
+            width: 36px;
+            height: 36px;
             background:url($imgUrl+'wechat.png') no-repeat;
-            background-size: 40px 40px;
+            background-size: 36px 36px;
             display: inline-block;
             margin-right: 30px;
             vertical-align: middle;
@@ -90,8 +87,8 @@ body{
             height: 40px;
             display: inline-block;
             border-radius: 50%;
-            border:1px solid orange;/*no*/
-            margin-left: 180px;
+            border:1px solid #fac824;/*no*/
+            margin-left: 370px;
             vertical-align: middle;
         }
         &.active:after{
@@ -100,9 +97,15 @@ body{
         }
     }
 }
-
+.yue:before{
+    background-image:url($imgUrl+'yue.png')!important;
+}
 .moneybox{
-    height: 90px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
     em{
         font-size: 35px;
     }
@@ -114,14 +117,17 @@ body{
         margin-top: 10px;
         width: 70%;
         float: left;
+        padding-left: 60px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
     }
     .money{
         width: 30%;
-        background-color: orange;
+        background-color: #fbc825;
         text-align: center;
         float: left;
-        height: 90px;
-        line-height: 90px;
+        height: 110px;
+        line-height: 110px;
         font-size: 30px;
     }
 }

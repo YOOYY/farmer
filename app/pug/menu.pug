@@ -25,17 +25,40 @@ block html
                             .name 红烧肉
                             .num x1
                         p.des 酱香味，微甜
-                        p.money ￥13
+                        p.money ￥#[em 13]
+                        del ￥20
+                    button 已取菜
+                li
+                    .img
+                        img(src=imgUrl+"food2.jpg", alt="")
+                    .text
+                        .flex
+                            .name 麻婆豆腐
+                            .num x1
+                        p.des 麻辣味
+                        p.money ￥#[em 13]
+                        del ￥20
+                    button 已取菜
+                li
+                    .img
+                        img(src=imgUrl+"food3.jpg", alt="")
+                    .text
+                        .flex
+                            .name 酸菜鱼
+                            .num x1
+                        p.des 微辣
+                        p.money ￥#[em 13]
                         del ￥20
                     button 已取菜
             .paytype
                 label.wechat.active(for="wechat") 微信支付
                     input#wechat(type="radio" value="wechat" checked)
-                label.wechat(for="wechat") 微信支付
-                    input#wechat(type="radio" value="wechat")
+                label.yue(for="yue") 余额支付
+                    input#yue(type="radio" value="yue")
             .moneybox
                 .text
                     div ￥#[em 13]
                     .des 消费结束后会根据取菜信息自动扣款
                 input.money(type="submit" value="结算")
 block js
+    script(src=jsUrl+"menu.js")

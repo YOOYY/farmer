@@ -4,6 +4,7 @@
 .mybox{
     overflow: hidden;
     margin-bottom: 60px;
+    padding-top: 20px;
 }
 .mybox>div{
     float: left;
@@ -14,12 +15,12 @@
     margin-right: 40px;
 }
 .nickname{
-    font-size: 28px;
+    font-size: 36px;
     margin-bottom: 10px;
 }
 .tel{
     font-size: 20px;
-    color: #eee;
+    color: rgb(182, 180, 180);
 }
 
 img{
@@ -35,7 +36,7 @@ ul{
         line-height: 40px;
         padding: 20px 0;
         img{
-            width: 10px;
+            width: 15px;
         }
         i{
             display: inline-block;
@@ -49,17 +50,37 @@ ul{
     }
 }
 .balance{
+    margin-right: 10px;
     background-image: url($imgUrl+'icon1.png');
 }
 
+.icon2{
+    margin-right: 10px;
+    background-image: url($imgUrl+'icon2.png');
+}
+
+.icon3{
+    margin-right: 10px;
+    background-image: url($imgUrl+'icon3.png');
+}
+
+.icon4{
+    margin-right: 10px;
+    background-image: url($imgUrl+'icon4.png');
+}
+
 .money{
-    color: orange;
+    color: #f8c723;
     font-size: 26px;
     em{
-        font-size: 32px;
+        font-size: 36px;
     }
 }
 
 .phone{
     font-size: 32px;
+}
+
+.first{
+    margin-bottom: 20px;
 }
