@@ -12,39 +12,50 @@ label {
 .nav li {
   text-align: center
 }
+.container {
+  width: 5.5rem
+}
 .logo {
   margin: 2rem auto 1rem;
-  width: 4rem
+  width: 3.32rem
+}
+#submit,
+.input,
+input {
+  width: 100%
 }
 .nav {
   font-size: .3rem
 }
 .nav li {
   width: 2.2rem;
+  height: .5rem;
   margin: 0 auto
 }
 .nav li.active {
   border-bottom: solid orange
 }
 .input {
-  width: 70%;
   font-size: .24rem;
   margin: 0 auto;
   margin-bottom: .2rem
 }
+.mask,
 label {
-  font-size: .16rem
+  font-size: .26rem
 }
 input {
   border-radius: .1rem;
   background-color: #ddd;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   color: #000;
   padding-left: .2rem;
   border: none;
-  height: .5rem
+  height: .8rem
 }
 input:focus {
-  border: solid #ff4500
+  border: solid #f0de83
 }
 #code {
   width: 50%
@@ -54,15 +65,15 @@ input:focus {
   color: #ff4500;
   text-align: right
 }
-#submit {
-  width: 100%
-}
-.mask {
-  font-size: .3rem
+.mask h3 {
+  font-size: .4rem;
+  font-weight: 400;
+  margin: .8rem 0 .25rem
 }
 .mask a {
+  width: 4.85rem;
   border-radius: .4rem;
   line-height: .7rem;
   height: .7rem;
-  margin-top: .3rem
+  margin: .3rem auto 0
 }

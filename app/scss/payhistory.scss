@@ -3,29 +3,40 @@ body{
     background-color: #eee;
 }
 
+.container{
+    width: 690px;
+}
+
 .order{
-    margin-right: 20px;
+    margin-right: 24px;
     @include sprite($s-order);
 }
 
 .date{
-    margin-right: 20px;
+    margin-right: 24px;
     @include sprite($s-date);
 }
 
 .card{
     color: orange;
+    font-size: 36px;
+}
+
+.flex{
+    margin: 33px auto 40px auto;
+    font-size: 32px;
 }
 
 p{
     margin: 20px 0;
-    font-size: 40px;
+    font-size: 20px;
     line-height: 60px;
     height: 60px;
 }
 
 ul{
     overflow: hidden;
+    margin-top: 20px;
     .flex{
         line-height: 50px;
         height: 50px;
@@ -37,7 +48,7 @@ li{
     margin-top: 20px;
     background-color: #fff;
     border-radius: 20px;
-    padding: 20px;
+    padding: 33px 55px;
     &:first-child{
         margin-top: 0;
     }

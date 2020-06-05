@@ -1,27 +1,38 @@
-.shop .flex,
-.shop h1 {
-  float: left
-}
 .foods li button,
 .moneybox .money {
   background-color: orange;
   text-align: center
 }
-.container {
+body {
   background-color: #eee
 }
 .shop {
-  overflow: hidden
+  width: 3.5rem;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center
 }
 .shop h1 {
   font-weight: 400;
-  font-size: .2rem
+  font-size: .36rem
 }
-.shop .flex span {
-  border: solid orange;
+.shop span {
+  border: 1px solid orange;
   color: orange;
-  border-radius: .05rem;
-  font-size: .16rem
+  border-radius: .3rem;
+  font-size: .16rem;
+  width: 1.5rem;
+  height: .36rem;
+  line-height: .36rem;
+  padding: 0 5px
+}
+.shop img {
+  width: .15rem;
+  height: .3rem
+}
+.foods {
+  margin-top: .6rem
 }
 .foods li {
   display: -webkit-box;
@@ -31,77 +42,92 @@
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  justify-content: space-between
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-bottom: .53rem
 }
 .foods li .name {
-  font-size: .2rem
-}
-.foods li .des,
-.foods li .num,
-.foods li del,
-.moneybox .des {
-  font-size: .16rem
+  font-size: .32rem
 }
 .foods li .des {
-  color: #ff4500
+  color: #e99a9b;
+  font-size: .2rem
 }
 .foods li del {
-  color: #eee
+  color: #666;
+  font-size: .18rem
 }
-.foods li .img,
-.foods li button {
-  width: 20%
+.foods li .num {
+  font-size: .22rem
+}
+.foods li .num em {
+  font-size: .28rem
+}
+.foods li .img {
+  width: 1.45rem
 }
 .foods li .text {
-  width: 55%
+  width: 2.65rem
+}
+.paytype label:after,
+.paytype label:before {
+  content: '';
+  width: .4rem;
+  height: .4rem;
+  display: inline-block;
+  vertical-align: middle
 }
 .foods li img {
   width: 100%
 }
 .foods li button {
-  border-radius: .1rem
+  border-radius: .1rem;
+  width: 1.6rem;
+  height: .6rem
 }
 .paytype label {
   display: block;
-  text-align: center;
-  width: 100%
+  width: 80%;
+  font-size: .4rem;
+  margin: 0 auto;
+  margin-bottom: .3rem
 }
 .paytype label:before {
-  content: '';
-  width: .3rem;
-  height: .3rem;
   background: url(../imgs/wechat.png) no-repeat;
-  background-size: .3rem .3rem;
-  display: inline-block;
-  margin-right: .4rem
+  background-size: .4rem .4rem;
+  margin-right: .3rem
 }
 .paytype label:after {
-  content: '';
-  width: .2rem;
-  height: .2rem;
-  display: inline-block;
   border-radius: 50%;
-  border: solid orange;
-  margin-left: .4rem
+  border: 1px solid orange;
+  margin-left: 1.8rem
 }
 .paytype label.active:after {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wocEA0x9C3uDQAABAZJREFUSMedlUtslUUUx39nZr7vu/f2cUuhl9DSogiKRF34WBgfCUQjhgVGWBhXuPARUBMXxoUaiWFhwsaFsS5I8BHDRqJpokHRKCbWBIxGRaMI4VEiBvuE3rbfY+a4aFG4FKH9Tb7NzPnOzDnnP2dkm25DAKOO498Pko4HqqEdJUNd6A7BbhDlfuAGYDFggEFVDkvEF0a1z+Th8Gh1nEWDSzjeeYSPbt7FeRwXoCiIApQUduDtU9JgM0OrCMvJWedVdoh1b5tgnhdhsNHQCDNDQEQQL/cJ/KYiT+vszv9DQAx4ZXO53vJ7lMcbi6i4eAPH9FA8SV7ZmmRN+wrJlzEnFKPS7o3/oDRe2lajxlK66KQT2dL/BBCwru0OP9F0IAR/Pk3zI3M0LQ3rXWX8EzUGNz4cQEkia/bGZQWjME//KopNYOqk6ZusT9Q05MOutdoFmF7vi3bVAlTm7NT56IhRGchctiZojpSsjZKO94P6B01RFLWiyB5TDdNVu0pEBVEhCdEPIc5uHK2MrLXBfgmCEjCGdZG1Kw0im+eTkmACAT6Ns9Lt3yzfVxzq+m55y1S159/IVFHVJx3o+jkcHACnMUPRmT1jbnxTZ9rNymO3LlxA28/nSmOVi9PHGoNy/aXx8w5wF9A7S9bB63vlUvOmZbc101Qzsnik6+tSWql44xtNOxxQbfDwh4puliDkE9qvgcKVzDM2UTSAin091/y5OKtTG21nJLDfJ9nqYKbr0kCLA0LDZDWk9LiW9GT7dQni3bOTw3lHNswjRPZVwb6ifoSx08NkQ+X9SVP5Hom5nLQjB4wCTRdM1ijMTyb21y7qsSMJMaeiyUfrp6Ldtk36bBghRlmwaMUbQfXeK0i7boCjjcsmphomS/1/HwsL/jyZkg6JupLpc/FZQmudrNLyonrdypWlfcaAfNYYnThFU7tq5Bf9cfBQXpsadLhyQWIUO9HxAj7arhK4MvqtwYR3tfEUChglaqY7rpiDxqqEIKRp8wNa2NfkKpyLghjZaZrT0kDzRGWP9Y4w+489ghwEeSt42Xu1jdAbcyA39oBsOvUwIZjWlqPdQy15myvibN7NDkBFsHkAn13jhRNmoLVgYGF2Nl2oD7lgLhXtXBCwBdQjeXys2Zyolwxug1uLCKSr6x+fmRzfHkblJRPPsXfMEFKwrcWbtVuSnXlcRoLifHkUAxgEm5iXQ+x/lSLaJVaT6Zr8/2aCYLwlGI8v/BaJ8962SoLFoyjGAwXgFVCwandPRhOrpqK0z6idfq8vc5EEQVWZKtU/L5y/SZBeCUIOpDPfJY+68ZYsTo8bG20oZe7OYKY2qnC3DXaJilZnQjoL/GWD7T+XjH042Hb6q6XDKwiziOMfhurUwp4vE7UAAAAASUVORK5CYII=) no-repeat;
-  background-size: .3rem .3rem
+  background-size: .4rem .4rem
 }
 .moneybox {
   height: .9rem
 }
 .moneybox em {
-  font-size: .3rem
+  font-size: .35rem
 }
 .moneybox .des {
-  color: #666
+  color: #666;
+  font-size: .16rem
 }
 .moneybox .text {
+  margin-top: .1rem;
   width: 70%;
-  display: inline-block
+  float: left
 }
 .moneybox .money {
-  width: 29%;
-  display: inline-block
+  width: 30%;
+  float: left;
+  height: .9rem;
+  line-height: .9rem;
+  font-size: .3rem
 }

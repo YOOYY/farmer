@@ -27,17 +27,6 @@ input[type=radio]{
     position: absolute;
 }
 
-.container{
-    margin: 0 auto;
-    width: 80%;
-    font-size: 18px;
-}
-
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-
 a{
     text-decoration:none;
     color: #000;
@@ -50,6 +39,20 @@ p{
 ul,ol {
     margin:0;padding-left: 0;
     list-style: none;
+}
+
+em{
+    font-style: normal;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
 }
 
 .clear{
@@ -78,14 +81,17 @@ ul,ol {
 #header {
     height: 90px;
     line-height: 90px;
-    font-size: 40px;
+    font-size: 32px;
+    text-align: center;
     background-color: #fff;
+    position: relative;
     a {
         position: absolute;
-        width: 19px;
+        width: 19px;height: 25px;
+        line-height: 25px;
         left: 35px;
-        top: 35px;
-        margin-right: 20px;
+        top: 25px;
+        margin-left: 20px;
         img {
             width: 100%;
         }
@@ -102,10 +108,9 @@ ul,ol {
     .content{
         background-color: #fff;
         border-radius: 10px;
-        padding: 20px;
         position: absolute;
-        width: 500px;height: 400px;
-        top: calc(50% - 200px);
-        left: calc(50% - 250px);
+        width: 600px;height: 365px;
+        top: calc(50% - 182px);
+        left: calc(50% - 300px);
     }
 }

@@ -1,38 +1,57 @@
-.container{
+body{
     background-color: #eee;
-    padding-bottom: 30px;
 }
-
+.gray{
+    background-color: #eee!important;
+}
+#header{
+    margin-bottom: 60px;
+}
+.container{
+    width: 690px;
+}
 .foods,.orderinfo{
     border-radius: 10px;
     background-color: #fff;
-    padding: 20px 10px;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 20px;
+}
+
+.foods{
+    padding: 60px 35px 20px 35px;
+    box-sizing: border-box;
+    margin: 0 auto 38px auto;
+}
+
+.orderinfo{
+    padding: 35px 40px 60px 60px;
 }
 
 .foods{
     li{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 53px;
         .name{
-            font-size: 20px;
+            font-size: 32px;
         }
         .des{
-            color:orangered;
+            color:#e99a9b;
+            font-size: 20px;
         }
         del{
             color: #666;
+            font-size: 18px;
         }
-        del,.des,.num{
-            font-size: 16px;
+        .num{
+            font-size: 22px;
+            em{
+                font-size: 28px;
+            }
         }
         .img{
-            width: 20%;
+            width: 145px;
         }
         .text{
-            width: 75%;
+            width: 420px;
         }
         img{
             width: 100%;
@@ -42,33 +61,40 @@
 
 .orderinfo{
     h3{
-        font-size: 20px;
+        font-size: 30px;
+        margin-bottom: 35px;
     }
     .content li{
         display: flex;
+        font-size: 30px;
         justify-content: space-between;
-        line-height: 30px;
-        height: 30px;
+        margin: 15px 0;
     }
 }
 
 .moneybox{
-    border-radius: 20px;
+    border-radius: 50px;
     overflow: hidden;
-    width: 90%;
+    width: 100%;
+    height: 100px;
     margin: 30px auto 0 auto;
     background-color: #fff;
     &>div{
-        display: inline-block;
+        float: left;
     }
     .text{
         width: 70%;
-        padding-left: 20px;
+        padding-left: 70px;
         box-sizing: border-box;
+        height: 100px;
+        line-height: 100px;
     }
     .money{
-        width: 29%;
+        width: 30%;
         background-color: orange;
         text-align: center;
+        height: 100px;
+        line-height: 100px;
+        font-size: 34px;
     }
 }

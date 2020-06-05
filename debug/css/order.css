@@ -3,19 +3,24 @@
   background-image: url(../imgs/icons.png);
   background-size: 2.15rem 2.15rem;
   width: .5rem;
-  height: .5rem
+  height: .5rem;
+  vertical-align: middle
 }
 .order {
-  margin-right: .2rem;
+  margin-right: .3rem;
   background-position: 0 0
 }
 .next {
-  margin-left: .3rem;
+  margin-left: .36rem;
   background-position: -1.65rem 0
 }
 .money {
   color: orange
 }
 p {
-  margin-top: .2rem
+  margin-top: .3rem
+}
+li {
+  padding: .5rem 0;
+  font-size: .24rem
 }

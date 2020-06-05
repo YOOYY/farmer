@@ -6,16 +6,15 @@ block config
 block head
     link(rel='stylesheet',href=cssUrl+'menu.css')
 block html
-    #header.container
+    #header
         a(href="#")
             img(src=imgUrl+"back.png", alt="")
         |我的菜单
     .container
-        .shop
+        .shop.flex
             h1 川菜馆
-            .brand.flex
-                span 今日本店预售
-                img(src=imgUrl+"next.png", alt="")
+            span 今日本店预售
+            img(src=imgUrl+"next.png", alt="")
         form
             ul.foods
                 li

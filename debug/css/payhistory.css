@@ -1,18 +1,20 @@
+li,
+ul {
+  margin-top: .2rem
+}
+body {
+  background-color: #eee
+}
+.container {
+  width: 6.9rem
+}
 .date,
 .order {
-  margin-right: .2rem;
+  margin-right: .24rem;
   background-image: url(../imgs/icons.png);
   background-size: 2.15rem 2.15rem;
   width: .5rem;
   height: .5rem
-}
-.date,
-.order,
-ul .flex {
-  height: .5rem
-}
-body {
-  background-color: #eee
 }
 .order {
   background-position: -1.65rem -.55rem
@@ -21,11 +23,16 @@ body {
   background-position: 0 -.55rem
 }
 .card {
-  color: orange
+  color: orange;
+  font-size: .36rem
+}
+.flex {
+  margin: .33rem auto .4rem;
+  font-size: .32rem
 }
 p {
   margin: .2rem 0;
-  font-size: .4rem;
+  font-size: .2rem;
   line-height: .6rem;
   height: .6rem
 }
@@ -34,13 +41,13 @@ ul {
 }
 ul .flex {
   line-height: .5rem;
+  height: .5rem;
   font-size: .5rem
 }
 li {
-  margin-top: .2rem;
   background-color: #fff;
   border-radius: .2rem;
-  padding: .2rem
+  padding: .33rem .55rem
 }
 li:first-child {
   margin-top: 0

@@ -1,16 +1,24 @@
+.container{
+    width: 635px;
+}
+.mybox{
+    overflow: hidden;
+    margin-bottom: 60px;
+}
 .mybox>div{
     float: left;
 }
 .avatar{
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+    width: 90px;
+    height: 90px;
+    margin-right: 40px;
 }
 .nickname{
-    font-size: 30px;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 .tel{
-    font-size: 30px;
+    font-size: 20px;
     color: #eee;
 }
 
@@ -19,21 +27,24 @@ img{
 }
 
 ul{
-    margin-top: 50px;
+    margin-top: 150px;
     li{
         display: flex;
         justify-content: space-between;
-        font-size: 30px;
+        font-size: 28px;
         line-height: 40px;
+        padding: 20px 0;
         img{
             width: 10px;
         }
         i{
-            display: block;
+            display: inline-block;
             width: 30px;
             height: 30px;
             background-repeat: no-repeat;
             background-size: 30px 30px;
+            margin-left: 20px;
+            vertical-align: middle;
         }
     }
 }
@@ -43,4 +54,12 @@ ul{
 
 .money{
     color: orange;
+    font-size: 26px;
+    em{
+        font-size: 32px;
+    }
+}
+
+.phone{
+    font-size: 32px;
 }

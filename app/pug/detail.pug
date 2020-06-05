@@ -6,11 +6,11 @@ block config
 block head
     link(rel='stylesheet',href=cssUrl+'detail.css')
 block html
-    #header.container
+    #header
         a(href="#")
             img(src=imgUrl+"back.png", alt="")
         |菜单详情
-    .container
+    .container.gray
         ul.foods
             li
                 .img
@@ -20,7 +20,7 @@ block html
                         .name 红烧肉
                         .num x1
                     p.des 酱香味，微甜
-                    p.money ￥13
+                    p.money ￥#[em 13]
                     del ￥20
         .orderinfo
             h3 订单信息

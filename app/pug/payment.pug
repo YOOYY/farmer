@@ -6,7 +6,7 @@ block config
 block head
     link(rel='stylesheet',href=cssUrl+'payment.css')
 block html
-    #header.container
+    #header
         a(href="#")
             img(src=imgUrl+"back.png", alt="")
         |充值
@@ -16,15 +16,18 @@ block html
             li.flex
                 div
                     img(src=imgUrl+"vip1.png", alt="")
-                div
-                    p.title 小试牛刀卡
-                    p.des 充值后长期有效
-                    p ￥#[em 20] #[del ￥#[em 30]]
+                .right.flex
+                    div
+                        p.title 小试牛刀卡
+                        p.des 充值后长期有效
+                        p.money ￥#[em 20] #[del ￥#[em 30]]
+                    .img
+                        img(src=imgUrl+"next.png", alt="")
     .mask
         .content
             img.close(src=imgUrl+"close.png")
             h3 付款详情
-            p ￥#[em 20]
+            p.money ￥#[em 20]
             p 订单信息 小试牛刀卡 20元
             .typelist
                 label.wechat.active(for="wechat") 微信支付
