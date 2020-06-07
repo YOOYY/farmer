@@ -1,0 +1,29 @@
+.next,
+.order {
+  background-image: url(../imgs/icons.png);
+  background-size: 215px 149px
+}
+.order {
+  margin-right: 30px;
+  background-position: -78px -114px;
+  width: 30px;
+  height: 32px;
+  vertical-align: bottom
+}
+.next {
+  margin-left: 36px;
+  background-position: -113px -114px;
+  width: 16px;
+  height: 30px;
+  vertical-align: middle
+}
+.money {
+  color: orange
+}
+p {
+  margin-top: 30px
+}
+li {
+  padding: 50px 0;
+  font-size: 24px
+}

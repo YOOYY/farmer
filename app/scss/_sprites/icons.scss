@@ -9,11 +9,11 @@ $s-back: (-55px, 0px, 50px, 50px,215px,
 149px,
 'icons.png', 'icons_back');
 $s-close-name: 'close';
-$s-close-x: -165px;
+$s-close-x: -110px;
 $s-close-y: 0px;
 $s-close-width: 50px;
 $s-close-height: 50px;
-$s-close: (-165px, 0px, 50px, 50px,215px,
+$s-close: (-110px, 0px, 50px, 50px,215px,
 149px,
 'icons.png', 'icons_close');
 $s-date-name: 'date';
@@ -65,19 +65,19 @@ $s-order: (0px, -114px, 34px, 35px,215px,
 149px,
 'icons.png', 'icons_order');
 $s-success-name: 'success';
-$s-success-x: -165px;
-$s-success-y: -55px;
+$s-success-x: -110px;
+$s-success-y: -59px;
 $s-success-width: 50px;
 $s-success-height: 50px;
-$s-success: (-165px, -55px, 50px, 50px,215px,
+$s-success: (-110px, -59px, 50px, 50px,215px,
 149px,
 'icons.png', 'icons_success');
 $s-wechat-name: 'wechat';
-$s-wechat-x: -110px;
-$s-wechat-y: -59px;
+$s-wechat-x: -165px;
+$s-wechat-y: 0px;
 $s-wechat-width: 50px;
 $s-wechat-height: 50px;
-$s-wechat: (-110px, -59px, 50px, 50px,215px,
+$s-wechat: (-165px, 0px, 50px, 50px,215px,
 149px,
 'icons.png', 'icons_wechat');
 $s-yue-name: 'yue';
@@ -89,11 +89,11 @@ $s-yue: (0px, 0px, 50px, 54px,215px,
 149px,
 'icons.png', 'icons_yue');
 $s--name: '√';
-$s--x: -110px;
-$s--y: 0px;
+$s--x: -165px;
+$s--y: -55px;
 $s--width: 50px;
 $s--height: 50px;
-$s--: (-110px, 0px, 50px, 50px,215px,
+$s--: (-165px, -55px, 50px, 50px,215px,
 149px,
 'icons.png', 'icons_√');
 
