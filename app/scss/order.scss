@@ -1,26 +1,28 @@
 @import './_sprites/icons.scss';
-
+.icon{
+    margin-right: 20px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
 .order{
-    margin-right: 30px;
     @include sprite($s-menu);
-    vertical-align: bottom;
 }
 
 .next{
-    margin-left: 36px;
     @include sprite($s-next);
-    vertical-align: middle;
+    margin-left: 20px;
 }
 
 .money{
-    color: orange;
+    color: #fac824;
 }
 
 p{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 li{
     padding: 50px 0;
-    font-size: 24px;
+    font-size: 30px;
+    border-bottom: 1px solid #f3f0e0;/*no*/
 }

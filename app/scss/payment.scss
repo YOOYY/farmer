@@ -1,66 +1,70 @@
 .container{
     width: 635px;
 }
+
 h3{
     margin-bottom: 55px;
-    font-size: 40px;
-}
-.title{
-    font-size: 30px;
-}
-
-.des{
-    color: #858585;
-    font-size: 22px;
-}
-
-img{
-    width: 350px;
-}
-
-.money{
-    font-size: 16px;
-    em{
-        font-size: 24px;
-    }
-}
-
-del{
-    text-decoration:none;
-    display: inline-block;
-    position: relative;
-    color: #c3c3c3;
-    margin-left: 10px;
-    em{
-        font-size: 18px;
-    }
-    &:after{
-        content: '';
-        width: 100%;height: 1px;
-        background-color: #c3c3c3;
-        position: absolute;
-        top: 50%;left: 0;
-    }
+    font-size: 34px;
+    letter-spacing: 2px;/*no*/
 }
 
 li{
     margin-bottom: 70px;
+    .money{
+        font-size: 24px;
+        color: #fac824;
+        em{
+            font-size: 34px;
+        }
+        del{
+            text-decoration:none;
+            display: inline-block;
+            position: relative;
+            color: #858585;
+            margin-left: 10px;
+            font-size: 20px;
+            em{
+                font-size: 30px;
+            }
+            &:after{
+                content: '';
+                width: 100%;height: 1px;
+                background-color: #858585;
+                position: absolute;
+                top: 50%;left: 0;
+            }
+        }
+    }
 }
 
 .right{
     align-items:center;
-    &>div{
-
-    }
     .img{
         width: 19px;
-        height: 25px;
+        height: 40px;
         margin-left: 40px;
     }
     img{
         width: 100%;
     }
 }
+
+.title{
+    font-size: 32px;
+}
+
+.des{
+    color: #858585;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+img{
+    width: 350px;
+}
+
+
+
 .mask{
     display: none;
     font-size: 30px;
@@ -75,12 +79,13 @@ li{
         left: calc(50% - 322px);top:calc(50% - 225px);
         .close{
             position: absolute;
-            left: 25px;
+            left: 35px;
             top: 40px;
-            width: 25px;
+            width: 30px;
+            padding: 10px;
         }
         h3{
-            font-size: 36px;
+            font-size: 34px;
             margin-bottom: 0;
         }
         em{
@@ -88,7 +93,7 @@ li{
         }
         .money{
             font-size: 24px;
-            margin: 10px auto 10px auto;
+            margin: 10px auto;
         }
     }
 }
@@ -100,11 +105,11 @@ li{
     text-align: center;
     width: 80%;
     font-size: 30px;
-    margin: 0 auto;
-    margin-bottom: 22px;
+    margin: 0 auto 22px auto;
     padding: 20px 0;
     border-bottom: 1px solid #f3f0e0;/*no*/
     border-top: 1px solid #f3f0e0;/*no*/
+    letter-spacing: 2px;/*no*/
     &:before{
         content: '';
         width: 40px;
@@ -133,9 +138,10 @@ li{
 }
 
 #submit{
-    width: 540px;
+    width: 520px;
     height: 75px;
-    font-size: 26px;
+    font-size: 34px;
+    letter-spacing: 2px;/*no*/
     margin: 50px auto;
     border-radius: 10px;
     background-color: #fac824;

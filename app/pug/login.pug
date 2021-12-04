@@ -1,8 +1,8 @@
 ﻿extends _share/container.pug
 block config
-    - var title = "";
-    - var keyword = "掼娱掼蛋,掼蛋,手机掼蛋,掼蛋官网";
-    - var description = "掼娱掼蛋,给你不一样的棋牌体验!";
+    - var title = "国际农夫登录";
+    - var keyword = "国际农夫,国际农夫登录";
+    - var description = "国际农夫首页";
 block head
     link(rel='stylesheet',href=cssUrl+'login.css')
 block html
@@ -10,7 +10,7 @@ block html
         img.logo(src=imgUrl+"logo.png", alt="")
         ul.nav
             li.active 短信验证码登录
-        form(action='index.html' method="get")
+        form(action='mine.html' method="get")
             .input
                 label(for="phone") 手机号
                 input#phone(type="text" placeholder="请输入手机号")

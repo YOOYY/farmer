@@ -1,25 +1,34 @@
+@import './_sprites/icons.scss';
+
+.next{
+    @include sprite($s-next);
+}
+
 .container{
     width: 635px;
 }
+
 .mybox{
     overflow: hidden;
-    margin-bottom: 60px;
-    padding-top: 20px;
+    margin: 20px auto;
+    &>div{
+        float: left;
+    }
 }
-.mybox>div{
-    float: left;
-}
+
 .avatar{
     width: 90px;
     height: 90px;
     margin-right: 40px;
 }
+
 .nickname{
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 34px;
+    margin: 6px 0 10px 0;
 }
+
 .tel{
-    font-size: 20px;
+    font-size: 28px;
     color: rgb(182, 180, 180);
 }
 
@@ -35,9 +44,8 @@ ul{
         font-size: 28px;
         line-height: 40px;
         padding: 20px 0;
-        img{
-            width: 15px;
-        }
+        letter-spacing: 1px;/*no*/
+        border-bottom: 1px solid #eee; /*no*/
         i{
             display: inline-block;
             width: 30px;
@@ -49,23 +57,23 @@ ul{
         }
     }
 }
-.balance{
+
+.icon{
     margin-right: 10px;
+}
+.icon1{
     background-image: url($imgUrl+'icon1.png');
 }
 
 .icon2{
-    margin-right: 10px;
     background-image: url($imgUrl+'icon2.png');
 }
 
 .icon3{
-    margin-right: 10px;
     background-image: url($imgUrl+'icon3.png');
 }
 
 .icon4{
-    margin-right: 10px;
     background-image: url($imgUrl+'icon4.png');
 }
 

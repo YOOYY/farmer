@@ -1,53 +1,50 @@
+ul .flex,
+ul p {
+  font-size: .3rem
+}
 body {
   background-color: #eee
 }
 .container {
-  width: 690px
+  width: 6.35rem
 }
 .date,
 .order {
-  margin-right: 24px;
   background-image: url(../imgs/icons.png);
-  background-size: 215px 149px;
-  width: 34px
+  background-size: 2.15rem 1.49rem;
+  width: .34rem
+}
+.icon {
+  margin-right: .2rem
 }
 .order {
-  background-position: 0 -114px;
-  height: 35px;
-  vertical-align: baseline
+  background-position: 0 -1.14rem;
+  height: .35rem
 }
 .date {
-  background-position: -39px -114px;
-  height: 34px
-}
-.card {
-  color: #fdc923;
-  font-size: 40px;
-  font-weight: 700
-}
-.flex {
-  font-size: 32px
-}
-p {
-  margin: 20px 0;
-  font-size: 30px;
-  line-height: 60px
+  background-position: -.39rem -1.14rem;
+  height: .34rem
 }
 ul {
-  overflow: hidden;
-  margin-top: 20px
+  overflow: hidden
+}
+ul li {
+  margin-top: .4rem;
+  background-color: #fff;
+  border-radius: .3rem;
+  padding: .32rem .55rem
 }
 ul .flex {
-  line-height: 50px;
-  height: 50px;
-  font-size: 50px
+  color: #fdc923
 }
-li {
-  margin-top: 40px;
-  background-color: #fff;
-  border-radius: 50px;
-  padding: 33px 55px
+ul p {
+  margin: .2rem 0;
+  line-height: .5rem
 }
-li:first-child {
-  margin-top: 0
+ul .card,
+ul em {
+  font-size: .4rem
+}
+ul .card {
+  font-weight: 700
 }

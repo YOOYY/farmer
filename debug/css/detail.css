@@ -11,10 +11,10 @@ body {
   background-color: #eee!important
 }
 #header {
-  margin-bottom: 60px
+  margin-bottom: .6rem
 }
 .container {
-  width: 690px
+  width: 6.9rem
 }
 .foods li img,
 .moneybox {
@@ -22,17 +22,17 @@ body {
 }
 .foods,
 .orderinfo {
-  border-radius: 30px;
+  border-radius: .3rem;
   background-color: #fff
 }
 .foods {
-  padding: 60px 35px 20px;
+  padding: .6rem .35rem .2rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0 auto 38px
+  margin: 0 auto .38rem
 }
 .orderinfo {
-  padding: 35px 40px 60px 60px
+  padding: .35rem .4rem .6rem .6rem
 }
 .foods li {
   display: flex;
@@ -40,50 +40,50 @@ body {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 53px
+  margin-bottom: .53rem
 }
 .foods li .name {
-  font-size: 32px
+  font-size: .32rem
 }
 .foods li .des {
   color: #e99a9b;
-  font-size: 20px
+  font-size: .2rem
 }
 .foods li del {
   color: #666;
-  font-size: 18px
+  font-size: .18rem
 }
 .foods li .num {
-  font-size: 22px
+  font-size: .22rem
 }
 .foods li .num em {
-  font-size: 28px
+  font-size: .28rem
 }
 .foods li .img {
-  width: 145px
+  width: 1.45rem
 }
 .foods li .text {
-  width: 420px
+  width: 4.2rem
 }
 .orderinfo h3 {
-  font-size: 34px;
-  margin-bottom: 35px
+  font-size: .34rem;
+  margin-bottom: .35rem
 }
 .orderinfo .content li {
   display: flex;
-  font-size: 30px;
+  font-size: .3rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 15px 0;
+  margin: .15rem 0;
   color: #8e8e8e
 }
 .moneybox {
-  border-radius: 50px;
+  border-radius: .5rem;
   overflow: hidden;
-  height: 100px;
-  margin: 30px auto 0;
+  height: 1rem;
+  margin: .3rem auto 0;
   background-color: #fff
 }
 .moneybox > div {
@@ -91,18 +91,18 @@ body {
 }
 .moneybox .text {
   width: 70%;
-  padding-left: 70px;
+  padding-left: .7rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  height: 100px;
-  line-height: 100px;
+  height: 1rem;
+  line-height: 1rem;
   background-color: #faf9f9
 }
 .moneybox .money {
   width: 30%;
   background-color: #fac824;
   text-align: center;
-  height: 100px;
-  line-height: 100px;
-  font-size: 34px
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .34rem
 }

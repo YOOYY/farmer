@@ -4,52 +4,43 @@ body{
 }
 
 .container{
-    width: 690px;
+    width: 635px;
 }
 
+.icon{
+    margin-right: 20px;
+}
 .order{
-    margin-right: 24px;
     @include sprite($s-order);
-    vertical-align: baseline;
 }
 
 .date{
-    margin-right: 24px;
     @include sprite($s-date);
-}
-
-.card{
-    color: #fdc923;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.flex{
-    font-size: 32px;
-}
-
-p{
-    margin: 20px 0;
-    font-size: 30px;
-    line-height: 60px;
 }
 
 ul{
     overflow: hidden;
-    margin-top: 20px;
+    li{
+        margin-top: 40px;
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 32px 55px;
+    }
     .flex{
+        font-size: 30px;
+        color: #fdc923;
+    }
+    p{
+        margin: 20px 0;
+        font-size: 30px;
         line-height: 50px;
-        height: 50px;
-        font-size: 50px;
+    }
+    .card{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    em{
+        font-size: 40px;
     }
 }
 
-li{
-    margin-top: 40px;
-    background-color: #fff;
-    border-radius: 50px;
-    padding: 33px 55px;
-    &:first-child{
-        margin-top: 0;
-    }
-}

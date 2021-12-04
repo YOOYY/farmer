@@ -1,8 +1,8 @@
 ﻿extends _share/container.pug
 block config
-    - var title = "";
-    - var keyword = "掼娱掼蛋,掼蛋,手机掼蛋,掼蛋官网";
-    - var description = "掼娱掼蛋,给你不一样的棋牌体验!";
+    - var title = "国际农夫个人主页";
+    - var keyword = "国际农夫,国际农夫个人主页";
+    - var description = "国际农夫个人主页";
 block head
     link(rel='stylesheet',href=cssUrl+'mine.css')
 block html
@@ -15,24 +15,22 @@ block html
             .avatar
                 img(src=imgUrl+"avatar.jpg", alt="")
             div
-                .nickname exexex
+                .nickname 雁过无痕
                 .tel 1234567890
         img.first(src=imgUrl+"card1.png", alt="")
         img(src=imgUrl+"card2.png", alt="")
         ul
             li
-                div #[i.icon.balance] 充值余额
+                div #[i.icon.icon1] 充值余额
                 .money ￥#[em 100]
             li
                 a(href="#")
                     div #[i.icon.icon2] 消费订单
-                div
-                    img(src=imgUrl+"next.png", alt="")
+                i.icon.next
             li
                 a(href="./payhistory.html")
                     div #[i.icon.icon3] 充值记录
-                div
-                    img(src=imgUrl+"next.png", alt="")
+                i.icon.next
             li
                 div #[i.icon.icon4] 客服
                 .phone 40080010

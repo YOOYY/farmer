@@ -1,53 +1,40 @@
 .leave,
 .menu {
   background-image: url(../imgs/icons.png);
-  background-size: 215px 149px
-}
-.banner,
-.logo {
-  display: block
-}
-.container {
-  width: 690px;
-  position: relative
-}
-.logo {
-  margin: 200px auto 120px;
-  width: 322px
+  background-size: 2.15rem 1.49rem
 }
 .nav {
   text-align: center;
-  margin-bottom: 140px
+  margin-bottom: 1.4rem
 }
 .nav .icon {
-  margin-right: 30px;
-  vertical-align: middle
+  margin-right: .3rem
 }
 .nav a {
-  width: 300px;
-  height: 100px;
+  width: 3rem;
+  height: 1rem;
   background-color: #fac824;
-  border-radius: 30px;
-  font-size: 30px;
-  line-height: 100px
+  border-radius: .3rem;
+  line-height: 1rem
 }
 .menu {
-  background-position: -78px -114px;
-  width: 30px;
-  height: 32px
+  background-position: -.78rem -1.14rem;
+  width: .3rem;
+  height: .32rem
 }
 .leave {
-  background-position: -55px -59px;
-  width: 50px;
-  height: 50px
+  background-position: -.55rem -.59rem;
+  width: .5rem;
+  height: .5rem
 }
 .admin img,
 .banner {
   width: 100%
 }
 .banner {
-  border-radius: 10px;
-  margin-bottom: 20px
+  display: block;
+  border-radius: .1rem;
+  margin-bottom: .2rem
 }
 .admin {
   width: .5rem;

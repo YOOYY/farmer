@@ -1,29 +1,32 @@
 .next,
 .order {
   background-image: url(../imgs/icons.png);
-  background-size: 215px 149px
+  background-size: 2.15rem 1.49rem
 }
-.order {
-  margin-right: 30px;
-  background-position: -78px -114px;
-  width: 30px;
-  height: 32px;
-  vertical-align: bottom
-}
-.next {
-  margin-left: 36px;
-  background-position: -113px -114px;
-  width: 16px;
-  height: 30px;
+.icon {
+  margin-right: .2rem;
+  margin-left: .04rem;
   vertical-align: middle
 }
+.order {
+  background-position: -.78rem -1.14rem;
+  width: .3rem;
+  height: .32rem
+}
+.next {
+  background-position: -1.13rem -1.14rem;
+  width: .16rem;
+  height: .3rem;
+  margin-left: .2rem
+}
 .money {
-  color: orange
+  color: #fac824
 }
 p {
-  margin-top: 30px
+  margin-top: .2rem
 }
 li {
-  padding: 50px 0;
-  font-size: 24px
+  padding: .5rem 0;
+  font-size: .3rem;
+  border-bottom: 1px solid #f3f0e0
 }
